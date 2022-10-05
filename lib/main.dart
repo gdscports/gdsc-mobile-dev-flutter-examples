@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_counter_flutter/cubitcounter.dart';
 import 'package:gdsc_counter_flutter/helloworld.dart';
 import 'package:gdsc_counter_flutter/simpleexample.dart';
 
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
       ),
       home: const Scaffold(
         body: SafeArea(
-          child: SimpleExample(),
+          child: HelloWorld(),
+          // child: SimpleExample(),
+          // child: CubitCounterWidget()
         ),
       ),
     );
