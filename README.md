@@ -1,16 +1,15 @@
-# gdsc_counter_flutter
+# GDSC Flutter Examples
 
-A new Flutter project.
+A few different examples (Hello World, Simple Counter & Cubit Counter Example) written using Flutter.
+
+## Requirements
+
+- Flutter installed
+- Flutter Extension for VSCode (Optional)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Run `flutter pub get` to install the required packages
+- Run `flutter run` to run the project
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This repo includes 3 examples. To run each one, comment/uncomment each version within `main.dart`
